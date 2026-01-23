@@ -1,4 +1,10 @@
 # SerialPort_Assistant_Qt
+
+## 一、程序界面
+(https://raw.githubusercontent.com/Liang-Kaidong/SerialPort_Assistant_Qt/main/Pics/微信图片_2026-01-23_105452_573.png)
+(https://raw.githubusercontent.com/Liang-Kaidong/SerialPort_Assistant_Qt/main/Pics/微信图片_2026-01-23_105506_414.png)
+(https://raw.githubusercontent.com/Liang-Kaidong/SerialPort_Assistant_Qt/main/Pics/微信图片_2026-01-23_105509_894.png)
+
 ## 一、项目概述与设计核心目的
 本项目基于Qt框架开发跨平台串口助手工具，支持串口枚举、参数配置、数据收发、交互提示等核心功能，适配Windows、Linux、macOS多系统。设计核心围绕四大目标展开，确保程序稳定性、兼容性与易用性：
 1.  **内存安全管控**：堆区创建`QSerialPort`、UI控件等核心对象，绑定主窗口`Widget`为父对象，依托Qt父子对象机制自动释放内存，从根源规避内存泄漏问题。
